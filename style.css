@@ -1,0 +1,73 @@
+* {
+    text-align: center;
+    padding: 0%;
+    margin: 0%; 
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+nav{
+    margin: 0%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    height:100px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+form {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    margin:5% auto  ;
+    width: 40%; 
+    text-align: center;
+}
+
+fieldset { 
+    padding: 10px;
+    display: flex;
+    flex-direction:column ;
+    margin: auto;
+    width: 90%; 
+    text-align: center;
+}
+
+img{
+    margin: auto;
+    padding: 10px;
+}
+label {
+    margin: auto 50px;
+    padding: 5px 10;
+}
+
+textarea {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+table {
+    font-size: 15px;
+    background:transparent;
+    margin: auto;
+    color: rgb(0, 0, 0);
+}
+
+td,
+a { text-decoration: none;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+} 
+
+.btn {
+    cursor: pointer;
+    margin: 50px;
+}
+footer{
+    background-color: black;
+    color: white;}
